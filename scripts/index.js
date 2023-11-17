@@ -111,7 +111,6 @@ for (let i = 0; i < tabs.length; i++) {
 
 let overlay=document.getElementsByClassName("overlay-left")[0]
 
-overlay.style.backgroundColor="rgba(251, 80, 142, 0.93)"
 setInterval(()=>{
    setTimeout(function(){ overlay.style.backgroundColor="rgba(40, 238, 167, 0.93)"},1000)
    setTimeout(function(){ overlay.style.backgroundColor="rgba(251, 80, 142, 0.93)"},1500)
