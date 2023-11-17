@@ -744,11 +744,15 @@ footer{
 footer >.section{
   padding: 0 70px;
 }
-.footer-link
+.footer-link 
 {
   font-size: 14px;
   font-weight: 600;
   margin-top: 20px;
+}
+.footer-link a{
+  color: var(--color-gray);
+
 }
 
 .footer-body,.left-section,.social-group,.copy-right{
@@ -799,7 +803,7 @@ button{
   cursor: pointer;
 }
 
-.footer-link:hover{
+.footer-link a:hover{
   color: var(--color-white);
   cursor: pointer;
   

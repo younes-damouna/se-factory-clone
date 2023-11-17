@@ -25,14 +25,12 @@ Array.from(questions).map(element => (
 let slideIndex = 0
 showSlides()
 let dots = document.getElementsByClassName("nav-dot");
-console.log(dots)
 for (let i = 0; i < dots.length; i++) {
     dots[i].addEventListener("click", () => {
         slideIndex = i
         dots[i].style.backgroundColor = "gray"
         dots[i].style.cursor = "pointer"
 
-        console.log("min")
         showSlides()
     })
 
